@@ -1,0 +1,10 @@
+body {
+    background-color: lavender;
+    font-family: monospace;
+    width: 75%;
+}
+
+header {
+    width: 75%;
+    background-color: skyblue;
+}
