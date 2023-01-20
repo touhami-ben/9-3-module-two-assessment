@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>module-two-assessment</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="./main.js"></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="./images/ghibli-logo.png" alt="Ghibli logo">
         <h1>Ghibli Review App</h1>
     </header>
 
-    <main>
+    <main class="main">
 
-    <section>
+    <section id="selected-movie">
         <h2>Select a movie</h2>
         <select name="titles" id="titles">
             <option value=""></option>
@@ -24,9 +24,9 @@
     </section>
 
     
-    <section>
+    <section id="movie-review">
         <h2>Add a review</h2>
-        <form>
+        <form id="user-review">
             <label for="review">Your review</label>
             <input type="text" name="review" id="review">
             <input type="submit">
@@ -34,22 +34,22 @@
     </section>
 
 
-    <section>
+    <section id="movie-details">
         <h2>Movie details</h2>
         <div id="display-info"></div>
     </section>
 
 
-    <section>
+    <section id="movie-people">
         <h2>People</h2>
-        <ol></ol>
+        <ol id="people-list"></ol>
         <button id="show-people">Show People</button>
     </section>
     
 
     <section id="reviews">
         <h2>Reviews</h2>
-        <ul></ul>
+        <ul id="reviews-list"></ul>
         <button id="reset-reviews">Reset Reviews</button>
 
     </section>

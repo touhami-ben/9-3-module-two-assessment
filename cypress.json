@@ -4,6 +4,6 @@
   },
   "env": {
     "URL": "http://localhost:3000",
-    "API": "https://resource-ghibliapi.onrender.com"
+    "API": "https://resource-ghibli-api.onrender.com"
   }
 }
