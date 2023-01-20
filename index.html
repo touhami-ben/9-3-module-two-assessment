@@ -9,14 +9,14 @@
     <script defer src="./main.js"></script>
 </head>
 <body>
-    <header class="header">
+    <header>
         <img src="./images/ghibli-logo.png" alt="Ghibli logo">
-        <h1>Ghibli Review App</h1>
+        <h1 id="header">Ghibli Review App</h1>
     </header>
 
-    <main class="main">
+    <main>
 
-    <section id="selected-movie">
+    <section>
         <h2>Select a movie</h2>
         <select name="titles" id="titles">
             <option value=""></option>
@@ -24,9 +24,9 @@
     </section>
 
     
-    <section id="movie-review">
+    <section>
         <h2>Add a review</h2>
-        <form id="user-review">
+        <form>
             <label for="review">Your review</label>
             <input type="text" name="review" id="review">
             <input type="submit">
@@ -34,22 +34,22 @@
     </section>
 
 
-    <section id="movie-details">
+    <section>
         <h2>Movie details</h2>
         <div id="display-info"></div>
     </section>
 
 
-    <section id="movie-people">
+    <section>
         <h2>People</h2>
-        <ol id="people-list"></ol>
+        <ol></ol>
         <button id="show-people">Show People</button>
     </section>
     
 
     <section id="reviews">
         <h2>Reviews</h2>
-        <ul id="reviews-list"></ul>
+        <ul></ul>
         <button id="reset-reviews">Reset Reviews</button>
 
     </section>

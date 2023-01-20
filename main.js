@@ -54,7 +54,7 @@ fetch(`${API_BASE}/films`)
 
     form.addEventListener("submit", (event) => {
         event.preventDefault();
-        // console.log(event);
+        console.log(event);
 
         if(titles.value === "") {
             alert("Please select a movie first");
@@ -64,7 +64,7 @@ fetch(`${API_BASE}/films`)
                 return film.title === titles.value;
                 
             });
-            // console.log(film)
+            console.log(film)
 
             const ul = document.querySelector("ul");
             const li = document.createElement("li");
@@ -92,7 +92,7 @@ fetch(`${API_BASE}/films`)
         fetch(`${API_BASE}/people`)
         .then((res) => res.json())
         .then((people) => {
-            // console.log(people)
+            console.log(people)
 
             let movieId;
             for(let movie of res) {

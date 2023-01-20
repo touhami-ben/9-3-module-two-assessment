@@ -1,12 +1,36 @@
 body {
     background-color: lavender;
     font-family: monospace;
-    width: 75%;
+
+    
 }
 
 header {
     width: 75%;
     background-color: skyblue;
+    grid-row: 1 / 2;
+    grid-column : 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    
+    
+    
+}
+
+header h1 {
+    text-align: right;
+    display: flex;
+    position: absolute;
+    border: bold;
+    right: 10%;
+
+}
+
+heading img {
+    width: 35%;
+    height: auto;
 }
 
 
@@ -14,4 +38,5 @@ header {
     #reviews {
         display: none;
     }
+
 }
